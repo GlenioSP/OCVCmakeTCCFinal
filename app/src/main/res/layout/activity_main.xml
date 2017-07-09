@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gleniosp.ocvcmaketccfinal.MainActivity">
+
+    <com.example.gleniosp.ocvcmaketccfinal.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main_surface" />
+
+    <ImageButton
+        android:id="@+id/imgBtnFlashLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_main_flashlight_margin_top"
+        android:layout_marginRight="@dimen/activity_main_flashlight_margin_right"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/flashlight_off"
+        android:background="@color/android:transparent"
+        android:contentDescription="@string/activity_main_flashlight_description" />
+</RelativeLayout>

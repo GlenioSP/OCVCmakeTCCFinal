@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvDialogPathLoadFileListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_dialog_list_title_margin"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/lvDialogLoadFileList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:stackFromBottom="true" />
+
+    <Button
+        android:id="@+id/btnDialogCancel"
+        android:layout_width="@dimen/activity_dialog_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_dialog_btn_margin"
+        android:text="@string/activity_dialog_title_btn_cancel" />
+
+
+</LinearLayout>

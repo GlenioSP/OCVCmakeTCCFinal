@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/fragment_top_margin"
+    android:layout_marginLeft="@dimen/fragment_left_margin"
+    android:background="@color/fragment_bg" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvFragmentCropAndGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fragment_title_margin"
+            android:layout_gravity="center"
+            android:text="@string/title_fragment_crop_and_goal"
+            android:textSize="@dimen/title_fragment_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerLowHRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_low_hue_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerLowHRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerLowHRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerHighHRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_high_hue_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerHighHRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerHighHRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerLowSRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_low_saturation_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerLowSRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerLowSRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerHighSRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_high_saturation_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerHighSRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerHighSRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerLowVRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_low_value_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerLowVRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerLowVRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvLowerHighVRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/lower_high_value_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarLowerHighVRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosLowerHighVRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperLowHRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_low_hue_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperLowHRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperLowHRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperHighHRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_high_hue_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperHighHRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperHighHRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperLowSRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_low_saturation_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperLowSRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperLowSRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperHighSRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_high_saturation_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperHighSRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperHighSRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperLowVRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_low_value_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperLowVRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperLowVRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/fragment_linear_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/tvUpperHighVRed"
+                android:layout_width="@dimen/fragment_tvLeft_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_tvLeft_linear_h_padding_right"
+                android:text="@string/upper_high_value_red"
+                android:textSize="@dimen/fragment_textSize" />
+
+            <SeekBar
+                android:id="@+id/seekBarUpperHighVRed"
+                android:layout_width="@dimen/fragment_seekBar_linear_h_width"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/fragment_seekBar_linear_h_padding_right" />
+
+            <TextView
+                android:id="@+id/tvPosUpperHighVRed"
+                android:layout_width="@dimen/fragment_tvRight_linear_h_width"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/fragment_textSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

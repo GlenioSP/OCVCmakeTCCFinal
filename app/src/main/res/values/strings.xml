@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">OCVCmakeTCCFinal</string>
+
+    <string name="activity_main_flashlight_description">Turn Camera Flashlight ON/OFF</string>
+
+    <!-- Menu specifics -->
+    <string name="title_menu_file">FILE</string>
+    <string name="title_file_default">Default Config</string>
+    <string name="title_file_redefine_default">Redefine Default</string>
+    <string name="title_file_load">Load Config</string>
+    <string name="title_file_save">Save Config</string>
+    <string name="title_menu_config">CONFIG MODE</string>
+    <string name="title_opencv_config_crop_and_goal">Crop and Goal</string>
+    <string name="title_opencv_config_obstacles">Obstacles</string>
+    <string name="title_opencv_config_grid">Grid</string>
+    <string name="title_opencv_config_epuck">E-Puck</string>
+    <string name="title_opencv_config_original">Original</string>
+    <string name="title_menu_map_field">MAP</string>
+    <string name="title_map_field_start">Start Mapping</string>
+    <string name="title_map_field_stop">Stop Mapping</string>
+    <string name="title_map_field_timer_config">Timer Config</string>
+    <string name="title_map_field_timer_save">Timer Save</string>
+    <string name="title_map_field_timer_send">Timer Send</string>
+    <string name="title_menu_server">SERVER</string>
+    <string name="title_server_enable_bluetooth">Enable Bluetooth</string>
+    <string name="title_server_disable_bluetooth">Disable Bluetooth</string>
+    <string name="title_server_discoverable">Make Discoverable</string>
+    <string name="title_server_available_devices">Available Devices</string>
+    <string name="title_server_connected_devices">Connected Devices</string>
+    <string name="title_server_send_map">Send Map</string>
+    <string name="title_menu_set_field">SET FIELD</string>
+    <string name="title_menu_unset_field">UNSET FIELD</string>
+
+    <!-- Config Fragments specifics -->
+    <string name="title_fragment_crop_and_goal">Crop Field and Extract Goal</string>
+    <string name="lower_low_hue_red">Lower Low Hue Red</string>
+    <string name="lower_high_hue_red">Lower High Hue Red</string>
+    <string name="lower_low_saturation_red">Lower Low Saturation Red</string>
+    <string name="lower_high_saturation_red">Lower High Saturation Red</string>
+    <string name="lower_low_value_red">Lower Low Value Red</string>
+    <string name="lower_high_value_red">Lower High Value Red</string>
+    <string name="upper_low_hue_red">Upper Low Hue Red</string>
+    <string name="upper_high_hue_red">Upper High Hue Red</string>
+    <string name="upper_low_saturation_red">Upper Low Saturation Red</string>
+    <string name="upper_high_saturation_red">Upper High Saturation Red</string>
+    <string name="upper_low_value_red">Upper Low Value Red</string>
+    <string name="upper_high_value_red">Upper High Value Red</string>
+
+    <string name="title_fragment_obstacles">Obstacles Extraction</string>
+    <string name="low_hue_black">Low Hue Black</string>
+    <string name="high_hue_black">High Hue Black</string>
+    <string name="low_saturation_black">Low Saturation Black</string>
+    <string name="high_saturation_black">High Saturation Black</string>
+    <string name="low_value_black">Low Value Black</string>
+    <string name="high_value_black">High Value Black</string>
+
+    <string name="title_fragment_grid">Cell Grid</string>
+    <string name="Y_Cells">Number of Cells in Y</string>
+    <string name="X_Cells">Number of Cells in X</string>
+
+    <string name="title_fragment_epuck">EPuck Search</string>
+    <string name="hough_circle_min_dist_divider">Hough Circle minDist Divider</string>
+    <string name="hough_circle_param1">Hough Circle param1</string>
+    <string name="hough_circle_param2">Hough Circle param2</string>
+    <string name="hough_circle_min_radius">Hough Circle Minimum Radius</string>
+    <string name="hough_circle_max_radius">Hough Circle Maximum Radius</string>
+
+
+    <!-- File specifics -->
+    <string name="activity_dialog_title_load_file">Load File</string>
+    <string name="activity_dialog_title_btn_cancel">Cancel</string>
+    <string name="activity_dialog_title_save_file">Save File</string>
+    <string name="activity_dialog_title_btn_save">Save</string>
+    <string name="activity_dialog_inputName_title">Filename:</string>
+    <string name="activity_dialog_no_file">No file was found.</string>
+
+    <!-- Timer specifics -->
+    <string name="activity_dialog_title_timer_config">Timer Config</string>
+    <string name="activity_timer_dialog_title_minutes">Minutes</string>
+    <string name="activity_timer_dialog_title_seconds">Seconds</string>
+    <string name="activity_timer_dialog_title_interval">Interval</string>
+    <string name="activity_timer_dialog_minutes_arrow_up_description">Arrow Up Minutes</string>
+    <string name="activity_timer_dialog_minutes_arrow_down_description">Arrow Down Minutes</string>
+    <string name="activity_timer_dialog_seconds_arrow_up_description">Arrow Up Seconds</string>
+    <string name="activity_timer_dialog_seconds_arrow_down_description">Arrow Down Seconds</string>
+    <string name="activity_timer_dialog_hyphen_description">Hyphen</string>
+    <string name="activity_timer_dialog_title_btn_set">Set</string>
+
+    <!-- Bluetooth specifics -->
+    <string name="activity_bl_dialog_title_available_devices">Available Device</string>
+    <string name="activity_bl_dialog_title_paired_devices">Paired Devices</string>
+    <string name="activity_bl_dialog_title_other_devices">Other devices</string>
+    <string name="activity_bl_dialog_title_btn_scan">Scan devices</string>
+    <string name="activity_bl_dialog_no_paired_device">No paired device.</string>
+    <string name="activity_bl_dialog_scanning_device">Scanning for devices...</string>
+    <string name="activity_bl_dialog_all_devices">All devices</string>
+    <string name="activity_bl_dialog_no_device_found">No device was found.</string>
+
+    <string name="activity_bl_dialog_title_connected_devices">Connected Devices</string>
+    <string name="activity_bl_dialog_connected_devices_subtitle">Touch a device to close</string>
+    <string name="activity_bl_dialog_no_connected_device">No connected device.</string>
+
+
+</resources>

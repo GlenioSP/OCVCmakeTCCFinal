@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_file"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_menu_file" >
+        <menu>
+            <item
+                android:id="@+id/submenu_file_default"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_file_default" />
+            <item
+                android:id="@+id/submenu_file_redefine_default"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_file_redefine_default" />
+            <item
+                android:id="@+id/submenu_file_load"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_file_load" />
+            <item
+                android:id="@+id/submenu_file_save"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_file_save" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_opencv_config"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_menu_config" >
+        <menu>
+            <item
+                android:id="@+id/submenu_opencv_config_crop_and_goal"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_opencv_config_crop_and_goal" />
+            <item
+                android:id="@+id/submenu_opencv_config_obstacles"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_opencv_config_obstacles" />
+            <item
+                android:id="@+id/submenu_opencv_config_grid"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_opencv_config_grid" />
+            <item
+                android:id="@+id/submenu_opencv_config_epuck"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_opencv_config_epuck" />
+            <item
+                android:id="@+id/submenu_opencv_config_original"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_opencv_config_original" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_set_unset_field"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_menu_set_field" />
+
+    <item
+        android:id="@+id/menu_map_field"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_menu_map_field" >
+        <menu>
+            <item
+                android:id="@+id/submenu_map_field_start_stop"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_map_field_start" />
+            <item
+                android:id="@+id/submenu_map_field_timer_config"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_map_field_timer_config" />
+            <group android:id="@+id/group_submenu_map_timer" android:checkableBehavior="all">
+                <item
+                    android:id="@+id/submenu_map_field_timer_save"
+                    android:showAsAction="ifRoom|withText"
+                    android:title="@string/title_map_field_timer_save" />
+                <item
+                    android:id="@+id/submenu_map_field_timer_send"
+                    android:showAsAction="ifRoom|withText"
+                    android:title="@string/title_map_field_timer_send" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_server"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_menu_server" >
+        <menu>
+            <item
+                android:id="@+id/submenu_server_enable_disable_bluetooth"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_server_enable_bluetooth" />
+            <item
+                android:id="@+id/submenu_server_discoverable"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_server_discoverable" />
+            <item
+                android:id="@+id/submenu_server_available_devices"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_server_available_devices" />
+            <item
+                android:id="@+id/submenu_server_connected_devices"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/title_server_connected_devices" />
+            <item
+                android:id="@+id/submenu_server_send_map"
+                android:showAsAction="never"
+                android:title="@string/title_server_send_map" />
+        </menu>
+    </item>
+
+</menu>

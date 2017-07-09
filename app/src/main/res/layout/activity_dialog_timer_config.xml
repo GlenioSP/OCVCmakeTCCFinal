@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTimerDialogMinutesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:layout_gravity="center"
+                android:text="@string/activity_timer_dialog_title_minutes" />
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogMinutesArrowUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow_timer_up"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_minutes_arrow_up_description" />
+
+            <EditText
+                android:id="@+id/edtTimerDialogMinutesSetBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:textSize="@dimen/activity_timer_dialog_setbox_textSize"
+                android:text="0"
+                android:inputType="number"
+                android:imeOptions="flagNoExtractUi" />
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogMinutesArrowDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:src="@drawable/arrow_timer_down"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_minutes_arrow_down_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTimerDialogSecondsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:layout_gravity="center"
+                android:text="@string/activity_timer_dialog_title_seconds" />
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogSecondsArrowUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow_timer_up"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_seconds_arrow_up_description" />
+
+            <EditText
+                android:id="@+id/edtTimerDialogSecondsSetBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:textSize="@dimen/activity_timer_dialog_setbox_textSize"
+                android:text="0"
+                android:inputType="number"
+                android:imeOptions="flagNoExtractUi" />
+
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogSecondsArrowDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:src="@drawable/arrow_timer_down"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_seconds_arrow_down_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/activity_timer_dialog_hyphen_layout_marginTop"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_hyphen_margin"
+                android:src="@drawable/hyphen_timer"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_hyphen_description"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTimerDialogIntervalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:layout_gravity="center"
+                android:text="@string/activity_timer_dialog_title_interval" />
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogIntervalArrowUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow_timer_up"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_minutes_arrow_up_description" />
+
+            <EditText
+                android:id="@+id/edtTimerDialogIntervalSetBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_title_setbox_margin"
+                android:textSize="@dimen/activity_timer_dialog_setbox_textSize"
+                android:text="0"
+                android:inputType="number"
+                android:imeOptions="flagNoExtractUi" />
+
+
+            <ImageButton
+                android:id="@+id/imgBtnTimerDialogIntervalArrowDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_timer_dialog_arrow_margin"
+                android:src="@drawable/arrow_timer_down"
+                android:background="@color/android:transparent"
+                android:contentDescription="@string/activity_timer_dialog_minutes_arrow_down_description" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTimerDialogSet"
+        android:layout_width="@dimen/activity_timer_dialog_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_timer_dialog_btn_margin"
+        android:text="@string/activity_timer_dialog_title_btn_set" />
+
+</LinearLayout>

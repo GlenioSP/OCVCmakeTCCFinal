@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_main_flashlight_margin_top">5dp</dimen>
+    <dimen name="activity_main_flashlight_margin_right">60dp</dimen>
+
+    <!-- Config Fragments specifics -->
+    <dimen name="fragment_top_margin">50dp</dimen>
+    <dimen name="fragment_left_margin">100dp</dimen>
+    <dimen name="fragment_title_margin">20dp</dimen>
+    <dimen name="title_fragment_textSize">20sp</dimen>
+    <dimen name="fragment_textSize">14sp</dimen>
+    <dimen name="fragment_linear_horizontal_margin">15dp</dimen>
+    <dimen name="fragment_tvLeft_linear_h_padding_right">5dp</dimen>
+    <dimen name="fragment_tvLeft_linear_h_width">200dp</dimen>
+    <dimen name="fragment_seekBar_linear_h_padding_right">10dp</dimen>
+    <dimen name="fragment_seekBar_linear_h_width">200dp</dimen>
+    <dimen name="fragment_tvRight_linear_h_width">30dp</dimen>
+
+    <!-- File specifics -->
+    <dimen name="activity_dialog_btn_width">100dp</dimen>
+    <dimen name="activity_dialog_btn_margin">10dp</dimen>
+    <dimen name="activity_dialog_list_title_margin">10dp</dimen>
+    <dimen name="activity_dialog_inputname_title_margin">5dp</dimen>
+
+    <dimen name="alert_dialog_tv_margin">10dp</dimen>
+
+    <!-- Timer specifics -->
+    <dimen name="activity_timer_dialog_title_setbox_margin">10dp</dimen>
+    <dimen name="activity_timer_dialog_arrow_margin">10dp</dimen>
+    <dimen name="activity_timer_dialog_hyphen_margin">10dp</dimen>
+    <dimen name="activity_timer_dialog_hyphen_layout_marginTop">88dp</dimen>
+    <dimen name="activity_timer_dialog_setbox_textSize">30sp</dimen>
+    <dimen name="activity_timer_dialog_btn_width">100dp</dimen>
+    <dimen name="activity_timer_dialog_btn_margin">10dp</dimen>
+
+
+    <!-- Bluetooth specifics -->
+    <dimen name="activity_bl_dialog_btn_width">150dp</dimen>
+    <dimen name="activity_bl_dialog_list_title_margin">10dp</dimen>
+
+</resources>

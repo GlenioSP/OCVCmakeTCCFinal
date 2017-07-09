@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gleniosp.ocvcmaketccfinal" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.front" />
+    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.gleniosp.ocvcmaketccfinal.MainActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".utils.LoadFileListActivity"
+            android:label="@string/activity_dialog_title_load_file"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <activity
+            android:name=".utils.SaveFileListActivity"
+            android:label="@string/activity_dialog_title_save_file"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <activity
+            android:name=".utils.TimerConfig"
+            android:label="@string/activity_dialog_title_timer_config"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <activity
+            android:name=".communication.AllDevicesListActivity"
+            android:label="@string/activity_bl_dialog_title_available_devices"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <activity
+            android:name=".communication.ConnectedDevicesListActivity"
+            android:label="@string/activity_bl_dialog_title_connected_devices"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+    </application>
+
+</manifest>

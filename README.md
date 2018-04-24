@@ -6,3 +6,5 @@ As of Android 5.0 and later, camera permission must be given to the application 
 This project was developed as part of a dissertation work based on the requirements for the conclusion of my graduation in Mechatronics Engineering at Federal University of Uberlândia. 
 
 App Video: https://youtu.be/Sh_JEzD_06U
+
+Dissertation link: https://repositorio.ufu.br/handle/123456789/19218 (portuguese only)
